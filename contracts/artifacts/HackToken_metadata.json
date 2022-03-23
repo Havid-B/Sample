@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_tokenOwner",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_myTo",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_myValue",
+						"type": "uint256"
+					}
+				],
+				"name": "callTransfer",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/hackToken.sol": "HackToken"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/hackToken.sol": {
+			"keccak256": "0x8da62c05f017971533fdcd55867d26485915d8957badddbeb521c881f49c5bf5",
+			"urls": [
+				"bzz-raw://e795c93b0a5c6d7c1713a348afdbee5dcd21886ec471d6feead5e7a22fcc889f",
+				"dweb:/ipfs/QmRW5GYm5mjX7hwCRgXse9wr8qzS427GSbBtTtYVm9BEXZ"
+			]
+		}
+	},
+	"version": 1
+}
